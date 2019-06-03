@@ -1,0 +1,135 @@
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: black;
+    padding: 10px;
+}
+
+/* the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    list-style: none;
+  }
+
+  /* Top navbar links */
+  .topnav a {
+    color: lightgreen;
+    display: block;
+    float: left;
+    margin: 9px;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    padding: 10px;
+  }
+
+  .topnav a:hover {
+      color: whitesmoke;
+  }
+
+  input[type] {
+      position: relative;
+      left: -10px;
+      bottom: -14px;
+  }
+
+  .current a{
+      background-color: #333;
+      padding: 10px;
+
+     
+  }
+
+  /* Three equal columns that float next to eachother */
+    .column {
+      float: left;
+  }
+
+  /* Left & right columns */
+  .column.side {
+      width: 15%;
+      border: 4px solid #333;
+  }
+
+  /* Middle column */
+  .column.middle {
+      width: 50%;
+      padding: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Smart layout - makes the three column layout stack on smaller screens */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+  body {
+      margin: 0 auto;
+  }
+
+  .sid {
+    list-style: none;
+  }
+
+  .sid a {
+    color: black;
+    display: block;
+    float: left;
+    margin: 9px;
+    text-decoration: none;
+    background-color: silver;
+    padding: 10px;
+  }
+
+  .sid a:hover {
+      color: whitesmoke;
+      background-color: #333;
+  }
+
+  .rsid {
+      list-style: none;
+  }
+
+  .rsid a{
+      position: relative;
+      top: -50px;
+      color: black;
+      display: inline-block;
+      margin: 9px;
+      text-decoration: none;
+      background-color: silver;
+      padding: 10px;
+  }
+  
+  #TT {
+      position: relative;
+      right: -80px;
+      bottom: 10px;
+  }
+
+  .footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+  }
+
+  .footer a {
+    color: lightgreen;
+    text-decoration: none;
+
+  }
