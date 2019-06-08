@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 p {
@@ -21,11 +21,11 @@ p {
     color: lightgreen;
     display: block;
     float: left;
-    margin: 9px;
+    margin: 5px;
     text-decoration: none;
     position: relative;
     left: -20px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .topnav a:hover {
@@ -34,13 +34,13 @@ p {
 
   input[type] {
       position: relative;
-      left: -10px;
-      bottom: -14px;
+      left: -15px;
+      bottom: -7px;
   }
 
   .current a{
       background-color: #333;
-      padding: 10px;
+      padding: 5px;
 
      
   }
@@ -53,7 +53,7 @@ p {
   /* Left & right columns */
   .column.side {
       width: 15%;
-      border: 4px solid #333;
+      border: 2px solid #333;
   }
 
   /* Middle column */
@@ -70,9 +70,9 @@ p {
   }
 
   /* Smart layout - makes the three column layout stack on smaller screens */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 960px) {
     .column.side, .column.middle {
-      width: 100%;
+      width: 75%;
     }
   }
 
@@ -87,7 +87,6 @@ p {
   .sid a {
     color: black;
     display: block;
-    float: left;
     margin: 9px;
     text-decoration: none;
     background-color: silver;
@@ -102,13 +101,16 @@ p {
   .rsid {
       list-style: none;
   }
-
+  .rsid a:hover{
+    color: whitesmoke;
+    background-color: #333;
+}
   .rsid a{
       position: relative;
       top: -50px;
       color: black;
-      display: inline-block;
-      margin: 9px;
+      display: block;
+      margin: 5px;
       text-decoration: none;
       background-color: silver;
       padding: 10px;
@@ -124,7 +126,7 @@ p {
     color: white;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     list-style: none;
   }
 
